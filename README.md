@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este projeto é um sistema de gestão para uma loja de roupas, desenvolvido em Java com a estrutura MVC. O sistema possibilita gerenciar todas as operações essenciais para o funcionamento de uma loja, como compra de produtos, pagamentos, cadastro de funcionários, clientes e seus dependentes, além do controle de faturamento.
+Este projeto é um sistema de gestão para uma loja de roupas, desenvolvido em Java com a estrutura MVC. O sistema possibilita gerenciar todas as operações essenciais para o funcionamento de uma loja, como compra de produtos, pagamentos, cadastro de funcionários, clientes e seus dependentes, além do controle de faturamento e controle de Exceptions.
 
 ## Funcionalidades
 
@@ -46,7 +46,7 @@ Para executar o projeto, é necessário ter os seguintes itens instalados:
 
 2. Configure o banco de dados MySQL e atualize o arquivo `application.properties` em `src/main/resources/` com as credenciais de acesso.
     ```properties
-    spring.datasource.url=jdbc:mysql://localhost:3306/loja_roupas
+    spring.datasource.url=jdbc:mysql://localhost:3306/roupa
     spring.datasource.username=seu-usuario
     spring.datasource.password=sua-senha
     spring.jpa.hibernate.ddl-auto=update
